@@ -7,7 +7,10 @@
     "date": "2026-05-26",
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1779836851367.png",
-    "videoUrl": "http://localhost:5001/videos/1779836847545-149FF1E0-43A3-43DA-AF48-6D8271679278.mp4"
+    "videoUrl": "http://localhost:5001/videos/1779836847545-149FF1E0-43A3-43DA-AF48-6D8271679278.mp4",
+    "isBestTake": true,
+    "trimStart": 0,
+    "trimEnd": 9.96
   },
   {
     "id": 1779836884651,
@@ -27,47 +30,34 @@
     "date": "2026-05-26",
     "orientation": "landscape",
     "thumbnail": "http://localhost:5001/thumbnails/1779836916465.png",
-    "videoUrl": "http://localhost:5001/videos/1779836916400-E6C057B1-4F96-4858-AF53-8F80B1E84ACB_2_0_a.mov"
-  },
-  {
-    "id": 1779836943542,
-    "title": "",
-    "description": "",
-    "song": "OFalling Stars",
-    "date": "2026-05-26",
-    "orientation": "landscape",
-    "thumbnail": "http://localhost:5001/thumbnails/1779836943028.png",
-    "videoUrl": "http://localhost:5001/videos/1779836942933-2D72EEBA-1668-4044-B391-DF94C6A80662.mov"
+    "videoUrl": "http://localhost:5001/videos/1779836916400-E6C057B1-4F96-4858-AF53-8F80B1E84ACB_2_0_a.mov",
+    "isBestTake": true,
+    "trimStart": 0,
+    "trimEnd": 13.866666666666667
   },
   {
     "id": 1779916907352,
     "title": "m",
-    "description": "m",
+    "description": "mljklds",
     "song": "OFalling Stars",
     "date": "2026-05-27",
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1779916907098.png",
-    "videoUrl": "http://localhost:5001/videos/1779916906966-IMG_0409.mov"
+    "videoUrl": "http://localhost:5001/videos/1779916906966-IMG_0409.mov",
+    "isBestTake": false
   },
   {
     "id": 1779916947791,
     "title": "",
-    "description": "",
+    "description": "sesiune fdpsr",
     "song": "OFalling Stars",
     "date": "2026-05-27",
     "orientation": "landscape",
     "thumbnail": "http://localhost:5001/thumbnails/1779916947606.png",
-    "videoUrl": "http://localhost:5001/videos/1779916947494-Movie on 16-05-2026 at 15.41.mov"
-  },
-  {
-    "id": 1779919420562,
-    "title": "",
-    "description": "",
-    "song": "Midnight Drive",
-    "date": "2026-05-27",
-    "orientation": "portrait",
-    "thumbnail": "http://localhost:5001/thumbnails/1779919420385.png",
-    "videoUrl": "http://localhost:5001/videos/1779919420286-17ddc95dbab64af6b80840d15d26bd07.mov"
+    "videoUrl": "http://localhost:5001/videos/1779916947494-Movie on 16-05-2026 at 15.41.mov",
+    "isBestTake": true,
+    "trimStart": 1.9348363046496029,
+    "trimEnd": 8.346666666666666
   },
   {
     "id": 1780048570983,
@@ -97,17 +87,10 @@
     "date": "2026-05-21",
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1780049011315.png",
-    "videoUrl": "http://localhost:5001/videos/1780049011212-v24044gl0000d87m2jnog65q8ebq0a40.mp4"
-  },
-  {
-    "id": 1780049047668,
-    "title": "",
-    "description": "",
-    "song": "x",
-    "date": "2026-05-03",
-    "orientation": "portrait",
-    "thumbnail": "http://localhost:5001/thumbnails/1780049047491.png",
-    "videoUrl": "http://localhost:5001/videos/1780049047189-Screen Recording 2026-05-03 at 14.24.10.mov"
+    "videoUrl": "http://localhost:5001/videos/1780049011212-v24044gl0000d87m2jnog65q8ebq0a40.mp4",
+    "isBestTake": true,
+    "trimStart": 0,
+    "trimEnd": 9.96
   },
   {
     "id": 1780049472644,
@@ -118,16 +101,6 @@
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1780049472390.png",
     "videoUrl": "http://localhost:5001/videos/1780049472077-Screen Recording 2026-05-03 at 14.24.10.mov"
-  },
-  {
-    "id": 1780049521662,
-    "title": "",
-    "description": "",
-    "song": "do I wanna know",
-    "date": "2026-05-03",
-    "orientation": "portrait",
-    "thumbnail": "http://localhost:5001/thumbnails/1780049521490.png",
-    "videoUrl": "http://localhost:5001/videos/1780049521240-Screen Recording 2026-05-03 at 14.24.10.mov"
   },
   {
     "id": 1780049645553,
@@ -159,7 +132,8 @@
     "hasDetectedDate": true,
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1780050085996.png",
-    "videoUrl": "http://localhost:5001/videos/1780050085937-8E421D24-CC67-4696-8397-97F48D906646.mp4"
+    "videoUrl": "http://localhost:5001/videos/1780050085937-8E421D24-CC67-4696-8397-97F48D906646.mp4",
+    "isBestTake": true
   },
   {
     "id": 1780124957134,
@@ -170,17 +144,68 @@
     "hasDetectedDate": true,
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1780124956880.png",
-    "videoUrl": "http://localhost:5001/videos/1780124956669-Screen Recording 2026-05-03 at 14.24.10.mov"
+    "videoUrl": "http://localhost:5001/videos/1780124956669-Screen Recording 2026-05-03 at 14.24.10.mov",
+    "isBestTake": true
   },
   {
     "id": 1780256144690,
     "title": "",
-    "description": "hello",
+    "description": "dsafdsfhellods",
     "song": "Ocean Waves",
     "date": "2026-05-03",
     "hasDetectedDate": true,
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1780256144352.png",
-    "videoUrl": "http://localhost:5001/videos/1780256144095-Screen Recording 2026-05-03 at 14.24.10.mov"
+    "videoUrl": "http://localhost:5001/videos/1780256144095-Screen Recording 2026-05-03 at 14.24.10.mov",
+    "isBestTake": false,
+    "trimStart": 0,
+    "trimEnd": 70.01166666666667
+  },
+  {
+    "id": 1780656599412,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-05-03",
+    "hasDetectedDate": true,
+    "orientation": "portrait",
+    "thumbnail": "http://localhost:5001/thumbnails/1780656599111.png",
+    "videoUrl": "http://localhost:5001/videos/1780656598867-Screen Recording 2026-05-03 at 14.24.10.mov"
+  },
+  {
+    "id": 1780657243441,
+    "title": "",
+    "description": "",
+    "song": "do I wanna know",
+    "date": "2026-05-03",
+    "hasDetectedDate": true,
+    "isBestTake": true,
+    "orientation": "portrait",
+    "thumbnail": "http://localhost:5001/thumbnails/1780657243192.png",
+    "videoUrl": "http://localhost:5001/videos/1780657242950-Screen Recording 2026-05-03 at 14.24.10.mov"
+  },
+  {
+    "id": 1780924795231,
+    "title": "",
+    "description": "",
+    "song": "vid",
+    "date": "2026-05-03",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "portrait",
+    "thumbnail": "http://localhost:5001/thumbnails/1780924794788.png",
+    "videoUrl": "http://localhost:5001/videos/1780924794555-Screen Recording 2026-05-03 at 14.24.10.mov"
+  },
+  {
+    "id": 1781862267409,
+    "title": "",
+    "description": "",
+    "song": "vid",
+    "date": "2026-05-03",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "portrait",
+    "thumbnail": "http://localhost:5001/thumbnails/1781862267271.png",
+    "videoUrl": "http://localhost:5001/videos/1781862267097-Screen Recording 2026-05-03 at 14.24.10.mov"
   }
 ]

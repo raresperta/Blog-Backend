@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1781935947036,
+    "type": "riffs",
+    "title": "7-9 ",
+    "bpm": "100",
+    "key": "C",
+    "status": "finished",
+    "description": "",
+    "coverImage": null,
+    "audioFile": "http://localhost:5001/audio/1781935946977-Heroes.wav"
+  },
+  {
+    "id": 1781935914891,
+    "type": "samples",
+    "title": "test tobe ",
+    "bpm": "23",
+    "key": "A",
+    "status": "draft",
+    "description": "",
+    "coverImage": null,
+    "audioFile": "http://localhost:5001/audio/1781935914821-Heroes.wav"
+  },
+  {
+    "id": 1781934338210,
+    "title": "120",
+    "bpm": "100",
+    "key": "F",
+    "status": "draft",
+    "type": "songs",
+    "description": "",
+    "coverImage": null,
+    "audioFile": "http://localhost:5001/audio/1781934338140-Heroes.wav"
+  },
+  {
+    "id": 1781863670727,
+    "title": "3",
+    "bpm": "34",
+    "key": "F",
+    "status": "draft",
+    "type": "songs",
+    "description": "3",
+    "coverImage": "http://localhost:5001/covers/1781863670657-res_dce9c95fd0874501160af7826b53f14b.jpg.webp",
+    "audioFile": "http://localhost:5001/audio/1781863670665-Heroes.wav"
+  }
+]
