@@ -50,7 +50,7 @@ exports.addLearningSong = (req, res) => {
       artist,
 
       coverImage: req.files?.coverImage?.[0]
-        ? `api.artjourney.ro/covers/${req.files.coverImage[0].filename}`
+        ? `http://api.artjourney.ro/covers/${req.files.coverImage[0].filename}`
         : null,
 
       lessonVideoUrl: "",
@@ -129,7 +129,7 @@ exports.uploadPdf = (req, res) => {
     }
 
     const pdfUrl =
-      `api.artjourney.ro/pdfs/${uploadedFile.filename}`;
+      `http://api.artjourney.ro/pdfs/${uploadedFile.filename}`;
 
     const updated = songs.map((song) => {
       if (song.id !== id) return song;

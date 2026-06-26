@@ -51,11 +51,11 @@ exports.addSong = (req, res) => {
       description,
 
       coverImage: req.files?.coverImage?.[0]
-        ? `api.artjourney.ro/covers/${req.files.coverImage[0].filename}`
+        ? `http://api.artjourney.ro/covers/${req.files.coverImage[0].filename}`
         : null,
 
       audioFile: req.files?.audioFile?.[0]
-        ? `api.artjourney.ro/audio/${req.files.audioFile[0].filename}`
+        ? `http://api.artjourney.ro/audio/${req.files.audioFile[0].filename}`
         : null,
     };
 
