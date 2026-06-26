@@ -13,6 +13,9 @@ const sessionsRoutes =
 const creationsRoutes =
   require("./routes/creationsRoutes");
 
+const learningRoutes =
+  require("./routes/learningRoutes");
+
 const app = express();
 
 app.use(cors());
@@ -64,6 +67,20 @@ app.use(
 );
 
 app.use(
+  "/pdfs",
+  express.static(
+    path.join(__dirname, "uploads/pdfs")
+  )
+);
+
+app.use(
+  "/pdf-previews",
+  express.static(
+    path.join(__dirname, "uploads/pdf-previews")
+  )
+);
+
+app.use(
   "/songs",
   songsRoutes
 );
@@ -74,6 +91,8 @@ app.use(
 );
 
 app.use("/creations", creationsRoutes);
+
+app.use("/learning", learningRoutes);
 
 app.listen(
   5001,

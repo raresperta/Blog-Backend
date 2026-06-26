@@ -207,5 +207,77 @@
     "orientation": "portrait",
     "thumbnail": "http://localhost:5001/thumbnails/1781862267271.png",
     "videoUrl": "http://localhost:5001/videos/1781862267097-Screen Recording 2026-05-03 at 14.24.10.mov"
+  },
+  {
+    "id": 1782470261348,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-05-03",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470261172.png",
+    "videoUrl": "http://localhost:5001/videos/1782470261087-video.mp4"
+  },
+  {
+    "id": 1782470467810,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-21",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470467628.png",
+    "videoUrl": "http://localhost:5001/videos/1782470467506-Movie on 21-06-2026 at 10.53.mov"
+  },
+  {
+    "id": 1782470545202,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-21",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470545033.png",
+    "videoUrl": "http://localhost:5001/videos/1782470544901-Movie on 21-06-2026 at 10.53.mov"
+  },
+  {
+    "id": 1782470559133,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-21",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470558970.png",
+    "videoUrl": "http://localhost:5001/videos/1782470558838-Movie on 21-06-2026 at 10.53.mov"
+  },
+  {
+    "id": 1782470572125,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-21",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470571962.png",
+    "videoUrl": "http://localhost:5001/videos/1782470571837-Movie on 21-06-2026 at 10.53.mov"
+  },
+  {
+    "id": 1782470590930,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-21",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782470590767.png",
+    "videoUrl": "http://localhost:5001/videos/1782470590635-Movie on 21-06-2026 at 10.53.mov"
   }
 ]

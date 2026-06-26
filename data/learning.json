@@ -1,0 +1,2254 @@
+[
+  {
+    "id": 1782484252717,
+    "title": "Back In Black",
+    "artist": "acdc",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pAgnJDJN4VA&list=RDpAgnJDJN4VA&start_radio=1&pp=ygUNYmFjayBpbiBibGFja6AHAQ%3D%3D",
+    "coverImage": "https://i.ytimg.com/vi/pAgnJDJN4VA/hqdefault.jpg",
+    "lessonVideoUrl": "https://www.youtube.com/watch?v=kSzOIQdaKkQ&t=989s",
+    "backingTrackUrl": "https://www.youtube.com/watch?v=mLT97Si65PA&list=RDmLT97Si65PA&start_radio=1",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782465521728,
+    "title": "With Or Without You",
+    "artist": "U2",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ujNeHIo7oTE",
+    "coverImage": "https://i.ytimg.com/vi/ujNeHIo7oTE/hqdefault.jpg",
+    "lessonVideoUrl": "https://www.youtube.com/watch?v=cEzsP2Sp_6s&pp=ygUmd2l0aCBvciB3aXRob3V0IHlvdSB1MiBndWl0YXIgdHV0b3JpYWw%3D",
+    "backingTrackUrl": "https://www.youtube.com/watch?v=10WzVlpPRWw&list=RD10WzVlpPRWw&start_radio=1&pp=ygUrd2l0aCBvciB3aXRob3V0IHlvdSB1MiBndWl0YXIgYmFja2luZyB0cmFja6AHAdIHCQlBCwGHKiGM7w%3D%3D",
+    "tabPdf": "http://localhost:5001/pdfs/1782465600642-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "07:YELLOW COMP",
+        "availableModels": [
+          "01:CRY WAH",
+          "02:535 WAH",
+          "03:AUTO WAH",
+          "04:TALK WAH AH",
+          "05:TALK WAH OH",
+          "06:TOUCH WAH",
+          "07:YELLOW COMP",
+          "08:BLUE COMP"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 7
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 37
+          },
+          {
+            "label": "RATIO",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 70
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "OD",
+        "enabled": false,
+        "model": "05:DRIVE",
+        "availableModels": [
+          "01:TUBE DR",
+          "02:808",
+          "03:PURE BOOST",
+          "04:FLEX BOOST",
+          "05:DRIVE",
+          "06:BLACK RAT",
+          "07:GREY FAE",
+          "08:MUFFY",
+          "09:MTL ZONE",
+          "10:MTL MASTER",
+          "11:OBSESSIVE DIST",
+          "12:JIMMY OD",
+          "13:FULL DRV",
+          "14:SHRED",
+          "15:BEEBEE PRE",
+          "16:BEEBEE +",
+          "17:RIET",
+          "18:TIGHT DS",
+          "19:FULL DS",
+          "20:GOLD CLON"
+        ],
+        "knobs": [
+          {
+            "label": "VOLUME",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "title": "AMP",
+        "enabled": true,
+        "model": "12:POWER BELL CL",
+        "availableModels": [
+          "01:65 US DX",
+          "02:65 US TW",
+          "03:59 US BASS",
+          "04:US SONIC",
+          "05:US BLUES CL",
+          "06:US BLUES OD",
+          "07:J800",
+          "08:J900",
+          "09:PLX100",
+          "10:E650 CL",
+          "11:E650 DS",
+          "12:POWER BELL CL",
+          "13:POWER BELL DS",
+          "14:BLACKNIGHT CL",
+          "15:BLACKNIGHT DS",
+          "16:MARKIII CL",
+          "17:MARKIII DS",
+          "18:MARKV CL",
+          "19:MARKV DS",
+          "20:TRI REC CL",
+          "21:TRI REC DS",
+          "22:ROCK VRB CL",
+          "23:ROCK VRB DS",
+          "24:CITRUS 30",
+          "25:CITRUS 50",
+          "26:SLOW 100 CR",
+          "27:SLOW 100 DS",
+          "28:DR.ZEE 18 JR",
+          "29:DR.ZEE RECK",
+          "30:JET 100H CL",
+          "31:JET 100H OD",
+          "32:JAZZ 120",
+          "33:UK30 CL",
+          "34:UK30 OD",
+          "35:HWT 103",
+          "36:PV 5050 CL",
+          "37:PV 5050 DS",
+          "38:REGAL TONE CL",
+          "39:REGAL TONE OD1",
+          "40:REGAL TONE OD2",
+          "41:CAROL CL",
+          "42:CAROL OD",
+          "43:CARDEFF",
+          "44:EV 5050 CL",
+          "45:EV 5050 DS",
+          "46:HT CLUB CL",
+          "47:HT CLUB DS",
+          "48:HUGEN CL",
+          "49:HUGEN OD",
+          "50:HUGEN DS",
+          "51:KOCHE OD",
+          "52:KOCHE DS",
+          "53:ACOUSTIC 1",
+          "54:ACOUSTIC 2"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 65
+          },
+          {
+            "label": "BASS",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 61
+          },
+          {
+            "label": "MID",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 57
+          },
+          {
+            "label": "TREBLE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 60
+          },
+          {
+            "label": "PRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 56
+          },
+          {
+            "label": "MST",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          }
+        ]
+      },
+      {
+        "title": "CAB",
+        "enabled": true,
+        "model": "17:UK 212",
+        "availableModels": [
+          "01:US DLX 112",
+          "02:US TWN 212",
+          "03:US BASS 410",
+          "04:SONIC 112",
+          "05:BLUES 112",
+          "06:1960 412",
+          "07:EAGLE P412",
+          "08:EAGLE S412",
+          "09:MARK 112",
+          "10:REC 412",
+          "11:CITRUS 412",
+          "12:CITRUS 212",
+          "13:SLOW 412",
+          "14:DR.ZEE 112",
+          "15:DR.ZEE 212",
+          "16:JAZZ 212",
+          "17:UK 212",
+          "18:HWT 412",
+          "19:PV 5050 412",
+          "20:REGAL TONE 110",
+          "21:TWO STONES 212",
+          "22:CARDEFF 112",
+          "23:EV 5050 412",
+          "24:HT 412",
+          "25:GAS STATION 412",
+          "26:ACOUSTIC112",
+          "27:EMPTY"
+        ],
+        "knobs": [
+          {
+            "label": "TUBE",
+            "type": "select",
+            "options": [
+              "EL34",
+              "EL84",
+              "6L6",
+              "6V6"
+            ],
+            "value": "EL84"
+          },
+          {
+            "label": "MIC",
+            "type": "select",
+            "options": [
+              "SM57",
+              "MD421",
+              "MD441",
+              "R121",
+              "C414"
+            ],
+            "value": "MD441"
+          },
+          {
+            "label": "CENTER",
+            "type": "dial",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "value": 5
+          },
+          {
+            "label": "DISTANCE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 25
+          }
+        ]
+      },
+      {
+        "title": "NOISE",
+        "enabled": false,
+        "model": "03:NOISE GATE",
+        "availableModels": [
+          "01:NOISE KILLER",
+          "02:INTEL REDUCER",
+          "03:NOISE GATE"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "RELEASE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "EQ",
+        "enabled": true,
+        "model": "04:CUSTOM EQ",
+        "availableModels": [
+          "01:GUITAR EQ",
+          "02:METAL EQ",
+          "03:6BANDS EQ",
+          "04:CUSTOM EQ"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN1",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "GAIN2",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": -3
+          },
+          {
+            "label": "GAIN3",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 1
+          },
+          {
+            "label": "FREQ1",
+            "type": "dial",
+            "min": 20,
+            "max": 1000,
+            "step": 1,
+            "value": 100
+          },
+          {
+            "label": "FREQ2",
+            "type": "dial",
+            "min": 100,
+            "max": 3000,
+            "step": 1,
+            "value": 600
+          },
+          {
+            "label": "FREQ3",
+            "type": "dial",
+            "min": 500,
+            "max": 8000,
+            "step": 1,
+            "value": 1250
+          }
+        ]
+      },
+      {
+        "title": "MOD",
+        "enabled": false,
+        "model": "12:ANA-CHORUS",
+        "availableModels": [
+          "01:PHASER",
+          "02:STEP PHASER",
+          "03:FAT PHASER",
+          "04:FLANGER",
+          "05:JET-FLANGER",
+          "06:TREMOLO",
+          "07:STUTTER",
+          "08:VIBRATO",
+          "09:PITCH SHIFT",
+          "10:DETUNE",
+          "11:ROTARY",
+          "12:ANA-CHORUS",
+          "13:TRI-CHORUS",
+          "14:RING MOD",
+          "15:Q-FILTER",
+          "16:HIGH PASS",
+          "17:LOW PASS",
+          "18:SLOW GEAR",
+          "19:LOFI"
+        ],
+        "knobs": [
+          {
+            "label": "RATE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "MIX",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "DEPTH",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "DELAY",
+        "enabled": false,
+        "model": "05:MOD",
+        "availableModels": [
+          "01:DIGITAL",
+          "02:ANALOG",
+          "03:REAL",
+          "04:TAPE",
+          "05:MOD",
+          "06:REVERSE",
+          "07:PINGPONG",
+          "08:DYNAMIC",
+          "09:DUAL DELAY"
+        ],
+        "knobs": [
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 32
+          },
+          {
+            "label": "F.BACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 72
+          },
+          {
+            "label": "TIME",
+            "type": "dial",
+            "min": 1,
+            "max": 2000,
+            "step": 1,
+            "value": 494
+          },
+          {
+            "label": "SUB-D",
+            "type": "select",
+            "options": [
+              "1/1",
+              "1/2",
+              "1/4",
+              "1/8",
+              "1/8D",
+              "1/16"
+            ],
+            "value": "1/4"
+          }
+        ]
+      },
+      {
+        "title": "REVERB",
+        "enabled": true,
+        "model": "02:HALL",
+        "availableModels": [
+          "01:ROOM",
+          "02:HALL",
+          "03:CHURCH",
+          "04:PLATE",
+          "05:SPRING",
+          "06:MOD",
+          "07:CAVE"
+        ],
+        "knobs": [
+          {
+            "label": "P.DELAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 14
+          },
+          {
+            "label": "DECAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 8
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1782410942107,
+    "title": "Is This Love",
+    "artist": "Whitesnake",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GOJk0HW_hJw",
+    "coverImage": "https://i.ytimg.com/vi/GOJk0HW_hJw/hqdefault.jpg",
+    "lessonVideoUrl": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DGOJk0HW_hJw&ved=2ahUKEwjNp5i8yKSVAxW8DRAIHQPEBfsQ78AJegQIFhAB&usg=AOvVaw3Rr1MwdxUV-h0hddl4NZG2",
+    "backingTrackUrl": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3Dm95O7I9RQiY&ved=2ahUKEwjy2tHNyKSVAxX0i8MKHZV4MjcQwqsBegQIFRAB&usg=AOvVaw1Me6QrvS7K-BTnayrPii2t",
+    "tabPdf": "http://localhost:5001/pdfs/1782464672768-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "07:YELLOW COMP",
+        "availableModels": [
+          "01:CRY WAH",
+          "02:535 WAH",
+          "03:AUTO WAH",
+          "04:TALK WAH AH",
+          "05:TALK WAH OH",
+          "06:TOUCH WAH",
+          "07:YELLOW COMP",
+          "08:BLUE COMP"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 7
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 37
+          },
+          {
+            "label": "RATIO",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 70
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "OD",
+        "enabled": false,
+        "model": "05:DRIVE",
+        "availableModels": [
+          "01:TUBE DR",
+          "02:808",
+          "03:PURE BOOST",
+          "04:FLEX BOOST",
+          "05:DRIVE",
+          "06:BLACK RAT",
+          "07:GREY FAE",
+          "08:MUFFY",
+          "09:MTL ZONE",
+          "10:MTL MASTER",
+          "11:OBSESSIVE DIST",
+          "12:JIMMY OD",
+          "13:FULL DRV",
+          "14:SHRED",
+          "15:BEEBEE PRE",
+          "16:BEEBEE +",
+          "17:RIET",
+          "18:TIGHT DS",
+          "19:FULL DS",
+          "20:GOLD CLON"
+        ],
+        "knobs": [
+          {
+            "label": "VOLUME",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "title": "AMP",
+        "enabled": false,
+        "model": "12:POWER BELL CL",
+        "availableModels": [
+          "01:65 US DX",
+          "02:65 US TW",
+          "03:59 US BASS",
+          "04:US SONIC",
+          "05:US BLUES CL",
+          "06:US BLUES OD",
+          "07:J800",
+          "08:J900",
+          "09:PLX100",
+          "10:E650 CL",
+          "11:E650 DS",
+          "12:POWER BELL CL",
+          "13:POWER BELL DS",
+          "14:BLACKNIGHT CL",
+          "15:BLACKNIGHT DS",
+          "16:MARKIII CL",
+          "17:MARKIII DS",
+          "18:MARKV CL",
+          "19:MARKV DS",
+          "20:TRI REC CL",
+          "21:TRI REC DS",
+          "22:ROCK VRB CL",
+          "23:ROCK VRB DS",
+          "24:CITRUS 30",
+          "25:CITRUS 50",
+          "26:SLOW 100 CR",
+          "27:SLOW 100 DS",
+          "28:DR.ZEE 18 JR",
+          "29:DR.ZEE RECK",
+          "30:JET 100H CL",
+          "31:JET 100H OD",
+          "32:JAZZ 120",
+          "33:UK30 CL",
+          "34:UK30 OD",
+          "35:HWT 103",
+          "36:PV 5050 CL",
+          "37:PV 5050 DS",
+          "38:REGAL TONE CL",
+          "39:REGAL TONE OD1",
+          "40:REGAL TONE OD2",
+          "41:CAROL CL",
+          "42:CAROL OD",
+          "43:CARDEFF",
+          "44:EV 5050 CL",
+          "45:EV 5050 DS",
+          "46:HT CLUB CL",
+          "47:HT CLUB DS",
+          "48:HUGEN CL",
+          "49:HUGEN OD",
+          "50:HUGEN DS",
+          "51:KOCHE OD",
+          "52:KOCHE DS",
+          "53:ACOUSTIC 1",
+          "54:ACOUSTIC 2"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 65
+          },
+          {
+            "label": "BASS",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 61
+          },
+          {
+            "label": "MID",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 57
+          },
+          {
+            "label": "TREBLE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 60
+          },
+          {
+            "label": "PRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 56
+          },
+          {
+            "label": "MST",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          }
+        ]
+      },
+      {
+        "title": "CAB",
+        "enabled": false,
+        "model": "17:UK 212",
+        "availableModels": [
+          "01:US DLX 112",
+          "02:US TWN 212",
+          "03:US BASS 410",
+          "04:SONIC 112",
+          "05:BLUES 112",
+          "06:1960 412",
+          "07:EAGLE P412",
+          "08:EAGLE S412",
+          "09:MARK 112",
+          "10:REC 412",
+          "11:CITRUS 412",
+          "12:CITRUS 212",
+          "13:SLOW 412",
+          "14:DR.ZEE 112",
+          "15:DR.ZEE 212",
+          "16:JAZZ 212",
+          "17:UK 212",
+          "18:HWT 412",
+          "19:PV 5050 412",
+          "20:REGAL TONE 110",
+          "21:TWO STONES 212",
+          "22:CARDEFF 112",
+          "23:EV 5050 412",
+          "24:HT 412",
+          "25:GAS STATION 412",
+          "26:ACOUSTIC112",
+          "27:EMPTY"
+        ],
+        "knobs": [
+          {
+            "label": "TUBE",
+            "type": "select",
+            "options": [
+              "EL34",
+              "EL84",
+              "6L6",
+              "6V6"
+            ],
+            "value": "EL84"
+          },
+          {
+            "label": "MIC",
+            "type": "select",
+            "options": [
+              "SM57",
+              "MD421",
+              "MD441",
+              "R121",
+              "C414"
+            ],
+            "value": "MD441"
+          },
+          {
+            "label": "CENTER",
+            "type": "dial",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "value": 15
+          },
+          {
+            "label": "DISTANCE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 40
+          }
+        ]
+      },
+      {
+        "title": "NOISE",
+        "enabled": true,
+        "model": "03:NOISE GATE",
+        "availableModels": [
+          "01:NOISE KILLER",
+          "02:INTEL REDUCER",
+          "03:NOISE GATE"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 10
+          },
+          {
+            "label": "RELEASE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "EQ",
+        "enabled": true,
+        "model": "04:CUSTOM EQ",
+        "availableModels": [
+          "01:GUITAR EQ",
+          "02:METAL EQ",
+          "03:6BANDS EQ",
+          "04:CUSTOM EQ"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN1",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "GAIN2",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": -3
+          },
+          {
+            "label": "GAIN3",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 1
+          },
+          {
+            "label": "FREQ1",
+            "type": "dial",
+            "min": 20,
+            "max": 1000,
+            "step": 1,
+            "value": 100
+          },
+          {
+            "label": "FREQ2",
+            "type": "dial",
+            "min": 100,
+            "max": 3000,
+            "step": 1,
+            "value": 600
+          },
+          {
+            "label": "FREQ3",
+            "type": "dial",
+            "min": 500,
+            "max": 8000,
+            "step": 1,
+            "value": 1250
+          }
+        ]
+      },
+      {
+        "title": "MOD",
+        "enabled": true,
+        "model": "12:ANA-CHORUS",
+        "availableModels": [
+          "01:PHASER",
+          "02:STEP PHASER",
+          "03:FAT PHASER",
+          "04:FLANGER",
+          "05:JET-FLANGER",
+          "06:TREMOLO",
+          "07:STUTTER",
+          "08:VIBRATO",
+          "09:PITCH SHIFT",
+          "10:DETUNE",
+          "11:ROTARY",
+          "12:ANA-CHORUS",
+          "13:TRI-CHORUS",
+          "14:RING MOD",
+          "15:Q-FILTER",
+          "16:HIGH PASS",
+          "17:LOW PASS",
+          "18:SLOW GEAR",
+          "19:LOFI"
+        ],
+        "knobs": [
+          {
+            "label": "RATE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "MIX",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "DEPTH",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "DELAY",
+        "enabled": true,
+        "model": "05:MOD",
+        "availableModels": [
+          "01:DIGITAL",
+          "02:ANALOG",
+          "03:REAL",
+          "04:TAPE",
+          "05:MOD",
+          "06:REVERSE",
+          "07:PINGPONG",
+          "08:DYNAMIC",
+          "09:DUAL DELAY"
+        ],
+        "knobs": [
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 32
+          },
+          {
+            "label": "F.BACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 72
+          },
+          {
+            "label": "TIME",
+            "type": "dial",
+            "min": 1,
+            "max": 2000,
+            "step": 1,
+            "value": 494
+          },
+          {
+            "label": "SUB-D",
+            "type": "select",
+            "options": [
+              "1/1",
+              "1/2",
+              "1/4",
+              "1/8",
+              "1/8D",
+              "1/16"
+            ],
+            "value": "1/8"
+          }
+        ]
+      },
+      {
+        "title": "REVERB",
+        "enabled": true,
+        "model": "02:HALL",
+        "availableModels": [
+          "01:ROOM",
+          "02:HALL",
+          "03:CHURCH",
+          "04:PLATE",
+          "05:SPRING",
+          "06:MOD",
+          "07:CAVE"
+        ],
+        "knobs": [
+          {
+            "label": "P.DELAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 14
+          },
+          {
+            "label": "DECAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 8
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1782410925114,
+    "title": "Man in the Box",
+    "artist": "AliceInChains",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TAqZb52sgpU",
+    "coverImage": "https://i.ytimg.com/vi/TAqZb52sgpU/hqdefault.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782410758503,
+    "title": "Is This Love",
+    "artist": "RHINO",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GOJk0HW_hJw",
+    "coverImage": "https://i.ytimg.com/vi/GOJk0HW_hJw/hqdefault.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782410490197,
+    "title": "Is This Love",
+    "artist": "RHINO",
+    "youtubeUrl": "https://www.youtube.com/watch?v=GOJk0HW_hJw",
+    "coverImage": "https://i.ytimg.com/vi/GOJk0HW_hJw/hqdefault.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782410365916,
+    "title": "Man in the Box",
+    "youtubeUrl": "https://music.youtube.com/watch?v=TAqZb52sgpU&si=pUeEF_qbGXiTpOLG",
+    "coverImage": "https://i.ytimg.com/vi/TAqZb52sgpU/hqdefault.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782410242248,
+    "title": "Man in the Box",
+    "youtubeUrl": "https://music.youtube.com/watch?v=TAqZb52sgpU&si=pUeEF_qbGXiTpOLG",
+    "coverImage": "https://i.ytimg.com/vi/TAqZb52sgpU/hqdefault.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782409674266,
+    "title": "Nirvana - Smells Like Teen Spirit (Official Music Video)",
+    "artist": "NirvanaVEVO",
+    "youtubeUrl": "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDhTWKbfoikeg&start_radio=1&pp=ygUXc21lbGxzIGxpa2UgdGVlbiBzcGlyaXSgBwE%3D",
+    "coverImage": "https://i.ytimg.com/vi/hTWKbfoikeg/hqdefault.jpg",
+    "lessonVideoUrl": "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDhTWKbfoikeg&start_radio=1&pp=ygUXc21lbGxzIGxpa2UgdGVlbiBzcGlyaXSgBwE%3D",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": []
+  },
+  {
+    "id": 1782407795735,
+    "title": "b",
+    "artist": "b",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "05:TALK WAH OH",
+        "availableModels": [
+          "01:CRY WAH",
+          "02:535 WAH",
+          "03:AUTO WAH",
+          "04:TALK WAH AH",
+          "05:TALK WAH OH",
+          "06:TOUCH WAH",
+          "07:YELLOW COMP",
+          "08:BLUE COMP"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 7
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 37
+          },
+          {
+            "label": "RATIO",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 70
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "OD",
+        "enabled": false,
+        "model": "05:DRIVE",
+        "availableModels": [
+          "01:TUBE DR",
+          "02:808",
+          "03:PURE BOOST",
+          "04:FLEX BOOST",
+          "05:DRIVE",
+          "06:BLACK RAT",
+          "07:GREY FAE",
+          "08:MUFFY",
+          "09:MTL ZONE",
+          "10:MTL MASTER",
+          "11:OBSESSIVE DIST",
+          "12:JIMMY OD",
+          "13:FULL DRV",
+          "14:SHRED",
+          "15:BEEBEE PRE",
+          "16:BEEBEE +",
+          "17:RIET",
+          "18:TIGHT DS",
+          "19:FULL DS",
+          "20:GOLD CLON"
+        ],
+        "knobs": [
+          {
+            "label": "VOLUME",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 21
+          },
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "title": "AMP",
+        "enabled": true,
+        "model": "12:POWER BELL CL",
+        "availableModels": [],
+        "knobs": [
+          {
+            "label": "GAIN",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 65
+          },
+          {
+            "label": "BASS",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 61
+          },
+          {
+            "label": "MID",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 57
+          },
+          {
+            "label": "TREBLE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 60
+          },
+          {
+            "label": "PRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 56
+          },
+          {
+            "label": "MST",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 100
+          }
+        ]
+      },
+      {
+        "title": "CAB",
+        "enabled": true,
+        "model": "17:UK 212",
+        "availableModels": [],
+        "knobs": [
+          {
+            "label": "TUBE",
+            "type": "select",
+            "options": [
+              "EL34",
+              "EL84",
+              "6L6",
+              "6V6"
+            ],
+            "value": "EL84"
+          },
+          {
+            "label": "MIC",
+            "type": "select",
+            "options": [
+              "SM57",
+              "MD421",
+              "MD441",
+              "R121",
+              "C414"
+            ],
+            "value": "MD441"
+          },
+          {
+            "label": "CENTER",
+            "type": "dial",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "value": 5
+          },
+          {
+            "label": "DISTANCE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 25
+          }
+        ]
+      },
+      {
+        "title": "NOISE",
+        "enabled": true,
+        "model": "03:NOISE GATE",
+        "availableModels": [
+          "01:NOISE KILLER",
+          "02:INTEL REDUCER",
+          "03:NOISE GATE"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 10
+          },
+          {
+            "label": "RELEASE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "THRES",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "EQ",
+        "enabled": true,
+        "model": "04:CUSTOM EQ",
+        "availableModels": [
+          "01:GUITAR EQ",
+          "02:METAL EQ",
+          "03:6BANDS EQ",
+          "04:CUSTOM EQ"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN1",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 1
+          },
+          {
+            "label": "GAIN2",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": -3
+          },
+          {
+            "label": "GAIN3",
+            "type": "dial",
+            "min": -15,
+            "max": 15,
+            "step": 1,
+            "value": 1
+          },
+          {
+            "label": "FREQ1",
+            "type": "dial",
+            "min": 20,
+            "max": 1000,
+            "step": 1,
+            "value": 100,
+            "suffix": " Hz"
+          },
+          {
+            "label": "FREQ2",
+            "type": "dial",
+            "min": 100,
+            "max": 3000,
+            "step": 1,
+            "value": 100,
+            "suffix": " Hz"
+          },
+          {
+            "label": "FREQ3",
+            "type": "dial",
+            "min": 500,
+            "max": 8000,
+            "step": 1,
+            "value": 1250,
+            "suffix": " Hz"
+          }
+        ]
+      },
+      {
+        "title": "MOD",
+        "enabled": true,
+        "model": "12:ANA-CHORUS",
+        "availableModels": [],
+        "knobs": [
+          {
+            "label": "RATE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "MIX",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          },
+          {
+            "label": "DEPTH",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "DELAY",
+        "enabled": true,
+        "model": "05:MOD",
+        "availableModels": [],
+        "knobs": [
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 32
+          },
+          {
+            "label": "F.BACK",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 72
+          },
+          {
+            "label": "TIME",
+            "type": "dial",
+            "min": 1,
+            "max": 2000,
+            "step": 1,
+            "suffix": " ms",
+            "value": 494
+          },
+          {
+            "label": "SUB-D",
+            "type": "select",
+            "options": [
+              "1/1",
+              "1/2",
+              "1/4",
+              "1/8",
+              "1/8D",
+              "1/16"
+            ],
+            "value": "1/4"
+          }
+        ]
+      },
+      {
+        "title": "REVERB",
+        "enabled": true,
+        "model": "02:HALL",
+        "availableModels": [
+          "01:ROOM",
+          "02:HALL",
+          "03:CHURCH",
+          "04:PLATE",
+          "05:SPRING",
+          "06:MOD",
+          "07:CAVE"
+        ],
+        "knobs": [
+          {
+            "label": "P.DELAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 0
+          },
+          {
+            "label": "LEVEL",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 14
+          },
+          {
+            "label": "DECAY",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 8
+          },
+          {
+            "label": "TONE",
+            "type": "dial",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1782407465339,
+    "title": "a",
+    "artist": "a",
+    "coverImage": "http://localhost:5001/covers/1782407465325-res_dce9c95fd0874501160af7826b53f14b Background Removed.png",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": null,
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "01:CRY WAH",
+        "availableModels": [
+          "01:CRY WAH",
+          "02:535 WAH",
+          "03:AUTO WAH",
+          "04:TALK WAH AH",
+          "05:TALK WAH OH",
+          "06:TOUCH WAH",
+          "07:YELLOW COMP",
+          "08:BLUE COMP"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "value": 7
+          },
+          {
+            "label": "THRES",
+            "value": 96
+          },
+          {
+            "label": "RATIO",
+            "value": 70
+          },
+          {
+            "label": "LEVEL",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "OD",
+        "enabled": false,
+        "model": "05:DRIVE",
+        "availableModels": [
+          "01:TUBE DR",
+          "02:808",
+          "03:PURE BOOST",
+          "04:FLEX BOOST",
+          "05:DRIVE",
+          "06:BLACK RAT",
+          "07:GREY FAE",
+          "08:MUFFY",
+          "09:MTL ZONE",
+          "10:MTL MASTER",
+          "11:OBSESSIVE DIST",
+          "12:JIMMY OD",
+          "13:FULL DRV",
+          "14:SHRED",
+          "15:BEEBEE PRE",
+          "16:BEEBEE +",
+          "17:RIET",
+          "18:TIGHT DS",
+          "19:FULL DS",
+          "20:GOLD CLON"
+        ],
+        "knobs": [
+          {
+            "label": "VOLUME",
+            "value": 100
+          },
+          {
+            "label": "TONE",
+            "value": 50
+          },
+          {
+            "label": "GAIN",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "title": "AMP",
+        "enabled": true,
+        "model": "12:POWER BELL CL",
+        "availableModels": [
+          "01:65 US DX",
+          "02:65 US TW",
+          "03:59 US BASS",
+          "04:US SONIC",
+          "05:US BLUES CL",
+          "06:US BLUES OD",
+          "07:J800",
+          "08:J900",
+          "09:PLX100",
+          "10:E650 CL",
+          "11:E650 DS",
+          "12:POWER BELL CL",
+          "13:POWER BELL DS",
+          "14:BLACKNIGHT CL",
+          "15:BLACKNIGHT DS",
+          "16:MARKIII CL",
+          "17:MARKIII DS",
+          "18:MARKV CL",
+          "19:MARKV DS",
+          "20:TRI REC CL",
+          "21:TRI REC DS",
+          "22:ROCK VRB CL",
+          "23:ROCK VRB DS",
+          "24:CITRUS 30",
+          "25:CITRUS 50",
+          "26:SLOW 100 CR",
+          "27:SLOW 100 DS",
+          "28:DR.ZEE 18 JR",
+          "29:DR.ZEE RECK",
+          "30:JET 100H CL",
+          "31:JET 100H OD",
+          "32:JAZZ 120",
+          "33:UK30 CL",
+          "34:UK30 OD",
+          "35:HWT 103",
+          "36:PV 5050 CL",
+          "37:PV 5050 DS",
+          "38:REGAL TONE CL",
+          "39:REGAL TONE OD1",
+          "40:REGAL TONE OD2",
+          "41:CAROL CL",
+          "42:CAROL OD",
+          "43:CARDEFF",
+          "44:EV 5050 CL",
+          "45:EV 5050 DS",
+          "46:HT CLUB CL",
+          "47:HT CLUB DS",
+          "48:HUGEN CL",
+          "49:HUGEN OD",
+          "50:HUGEN DS",
+          "51:KOCHE OD",
+          "52:KOCHE DS",
+          "53:ACOUSTIC 1",
+          "54:ACOUSTIC 2"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN",
+            "value": 65
+          },
+          {
+            "label": "BASS",
+            "value": 61
+          },
+          {
+            "label": "MID",
+            "value": 57
+          },
+          {
+            "label": "TREBLE",
+            "value": 60
+          },
+          {
+            "label": "PRES",
+            "value": 56
+          },
+          {
+            "label": "MST",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "title": "CAB",
+        "enabled": true,
+        "model": "17:UK 212",
+        "availableModels": [
+          "01:US DLX 112",
+          "02:US TWN 212",
+          "03:US BASS 410",
+          "04:SONIC 112",
+          "05:BLUES 112",
+          "06:1960 412",
+          "07:EAGLE P412",
+          "08:EAGLE S412",
+          "09:MARK 112",
+          "10:REC 412",
+          "11:CITRUS 412",
+          "12:CITRUS 212",
+          "13:SLOW 412",
+          "14:DR.ZEE 112",
+          "15:DR.ZEE 212",
+          "16:JAZZ 212",
+          "17:UK 212",
+          "18:HWT 412",
+          "19:PV 5050 412",
+          "20:REGAL TONE 110",
+          "21:TWO STONES 212",
+          "22:CARDEFF 112",
+          "23:EV 5050 412",
+          "24:HT 412",
+          "25:GAS STATION 412",
+          "26:ACOUSTIC112",
+          "27:EMPTY"
+        ],
+        "knobs": [
+          {
+            "label": "TUBE",
+            "value": "EL84"
+          },
+          {
+            "label": "MIC",
+            "value": null
+          },
+          {
+            "label": "CENTER",
+            "value": 5
+          },
+          {
+            "label": "DISTANCE",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "title": "NOISE",
+        "enabled": true,
+        "model": "03:NOISE GATE",
+        "availableModels": [
+          "01:NOISE KILLER",
+          "02:INTEL REDUCER",
+          "03:NOISE GATE"
+        ],
+        "knobs": [
+          {
+            "label": "ATTACK",
+            "value": 10
+          },
+          {
+            "label": "RELEASE",
+            "value": 50
+          },
+          {
+            "label": "THRES",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "EQ",
+        "enabled": true,
+        "model": "04:CUSTOM EQ",
+        "availableModels": [
+          "01:GUITAR EQ",
+          "02:METAL EQ",
+          "03:6BANDS EQ",
+          "04:CUSTOM EQ"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN1",
+            "value": 0
+          },
+          {
+            "label": "GAIN2",
+            "value": -3
+          },
+          {
+            "label": "GAIN3",
+            "value": 1
+          },
+          {
+            "label": "FREQ1",
+            "value": 100
+          },
+          {
+            "label": "FREQ2",
+            "value": 600
+          },
+          {
+            "label": "FREQ3",
+            "value": 1250
+          }
+        ]
+      },
+      {
+        "title": "MOD",
+        "enabled": true,
+        "model": "12:ANA-CHORUS",
+        "availableModels": [
+          "01:PHASER",
+          "02:STEP PHASER",
+          "03:FAT PHASER",
+          "04:FLANGER",
+          "05:JET-FLANGER",
+          "06:TREMOLO",
+          "07:STUTTER",
+          "08:VIBRATO",
+          "09:PITCH SHIFT",
+          "10:DETUNE",
+          "11:ROTARY",
+          "12:ANA-CHORUS",
+          "13:TRI-CHORUS",
+          "14:RING MOD",
+          "15:Q-FILTER",
+          "16:HIGH PASS",
+          "17:LOW PASS",
+          "18:SLOW GEAR",
+          "19:LOFI"
+        ],
+        "knobs": [
+          {
+            "label": "RATE",
+            "value": 50
+          },
+          {
+            "label": "MIX",
+            "value": 50
+          },
+          {
+            "label": "TONE",
+            "value": 50
+          },
+          {
+            "label": "DEPTH",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "title": "DELAY",
+        "enabled": true,
+        "model": "05:MOD",
+        "availableModels": [
+          "01:DIGITAL",
+          "02:ANALOG",
+          "03:REAL",
+          "04:TAPE",
+          "05:MOD",
+          "06:REVERSE",
+          "07:PINGPONG",
+          "08:DYNAMIC",
+          "09:DUAL DELAY"
+        ],
+        "knobs": [
+          {
+            "label": "LEVEL",
+            "value": 32
+          },
+          {
+            "label": "F.BACK",
+            "value": 72
+          },
+          {
+            "label": "TIME",
+            "value": 494
+          },
+          {
+            "label": "SUB-D",
+            "value": "1/4"
+          }
+        ]
+      },
+      {
+        "title": "REVERB",
+        "enabled": true,
+        "model": "02:HALL",
+        "availableModels": [
+          "01:ROOM",
+          "02:HALL",
+          "03:CHURCH",
+          "04:PLATE",
+          "05:SPRING",
+          "06:MOD",
+          "07:CAVE"
+        ],
+        "knobs": [
+          {
+            "label": "P.DELAY",
+            "value": 0
+          },
+          {
+            "label": "LEVEL",
+            "value": 14
+          },
+          {
+            "label": "DECAY",
+            "value": 8
+          },
+          {
+            "label": "TONE",
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1782232554339,
+    "title": "ads",
+    "artist": "dfs",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782232558818-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "07 YELLOW COMP",
+        "availableModels": [
+          "07 YELLOW COMP",
+          "RED COMP"
+        ],
+        "knobs": [
+          {
+            "label": "ATK",
+            "value": 5
+          },
+          {
+            "label": "THR",
+            "value": 35
+          },
+          {
+            "label": "RAT",
+            "value": 55
+          },
+          {
+            "label": "LVL",
+            "value": 58
+          }
+        ]
+      },
+      {
+        "title": "WAH",
+        "enabled": false,
+        "model": "OFF",
+        "availableModels": [
+          "OFF",
+          "CRY",
+          "AUTO"
+        ],
+        "knobs": []
+      },
+      {
+        "title": "NOISE",
+        "enabled": true,
+        "model": "GATE",
+        "availableModels": [
+          "GATE"
+        ],
+        "knobs": [
+          {
+            "label": "THR",
+            "value": 85
+          }
+        ]
+      },
+      {
+        "title": "OD",
+        "enabled": false,
+        "model": "OFF",
+        "availableModels": [
+          "OFF",
+          "TS",
+          "BLUES"
+        ],
+        "knobs": []
+      },
+      {
+        "title": "AMP",
+        "enabled": true,
+        "model": "01 US DX",
+        "availableModels": [
+          "01 US DX",
+          "06 US BLUES OD",
+          "UK STACK"
+        ],
+        "knobs": [
+          {
+            "label": "GAIN",
+            "value": 25
+          },
+          {
+            "label": "BASS",
+            "value": 48
+          },
+          {
+            "label": "MID",
+            "value": 22
+          },
+          {
+            "label": "TRE",
+            "value": 62
+          },
+          {
+            "label": "PRES",
+            "value": 52
+          },
+          {
+            "label": "MST",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1782231409748,
+    "title": "14",
+    "artist": "14",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782231413543-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782230584341,
+    "title": "12",
+    "artist": "12",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782231078565-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782228993796,
+    "title": "0",
+    "artist": "0",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228997694-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782228823596,
+    "title": "1",
+    "artist": "1",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228835023-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782228770181,
+    "title": "2",
+    "artist": "2",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228775761-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782228734705,
+    "title": "ds",
+    "artist": "ds",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228741293-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782228698167,
+    "title": "a2",
+    "artist": "a2",
+    "coverImage": null,
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228706078-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782227355656,
+    "title": "hfghjn",
+    "artist": "fight",
+    "coverImage": "http://localhost:5001/covers/1782227355645-Screenshot 2026-05-05 at 17.53.48.png",
+    "lessonVideoUrl": "https://www.youtube.com/watch?v=POjXus7-_gk",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228137947-res_dce9c95fd0874501160af7826b53f14b.pdf",
+    "pedals": []
+  },
+  {
+    "id": 1782230000,
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "coverImage": "http://localhost:5001/covers/test.jpg",
+    "lessonVideoUrl": "",
+    "backingTrackUrl": "",
+    "tabPdf": "http://localhost:5001/pdfs/1782228242013-(1) OFFICIAL HOTEL CALIFORNIA TABS by Eagles @ Ultimate-Guitar.Com.pdf",
+    "pedals": [
+      {
+        "title": "COMP",
+        "enabled": true,
+        "model": "07 YELLOW COMP",
+        "knobs": [
+          {
+            "label": "ATK",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -19,5 +19,5 @@ router.post(
   ]),
   addSong
 );
-router.delete("/creations/:id", deleteCreation);
+router.delete("/:id", deleteCreation);
 module.exports = router;
