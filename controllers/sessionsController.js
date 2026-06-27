@@ -443,7 +443,7 @@ exports.uploadVideo = async (req, res) => {
 
         thumbnail:
 
-          `http://api.artjourney.ro/thumbnails/${thumbnailName}`,
+          `https://api.artjourney.ro/thumbnails/${thumbnailName}`,
 
         videoUrl:
 
