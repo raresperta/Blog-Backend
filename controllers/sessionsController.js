@@ -443,7 +443,7 @@ exports.uploadVideo = async (req, res) => {
 
         thumbnail:
 
-          `https://api.artjourney.ro/thumbnails/${thumbnailName}`,
+          `http://api.artjourney.ro/thumbnails/${thumbnailName}`,
 
         videoUrl:
 
@@ -731,258 +731,271 @@ exports.checkVideoDate = async (req, res) => {
 /* -------------------- */
 
 exports.editVideo = async (req, res) => {
+
   try {
+
     console.time("editVideo");
 
     const { id } = req.params;
 
+    const numericId = Number(id);
+
     const {
+
       description,
+
       isBestTake,
+
       trimStart,
+
       trimEnd,
+
     } = req.body;
 
-    console.log("EDIT BODY:", req.body);
-
     const sessionsPath = path.join(
+
       __dirname,
+
       "../data/sessions.json"
+
+    );
+
+    const songsPath = path.join(
+
+      __dirname,
+
+      "../data/songs.json"
+
     );
 
     const sessions = JSON.parse(
-      fs.readFileSync(
-        sessionsPath,
-        "utf8"
-      )
+
+      fs.readFileSync(sessionsPath, "utf8")
+
     );
 
-    let editedSession = null;
+    const sessionIndex = sessions.findIndex(
 
-    const updatedSessions = [];
+      (s) => s.id === numericId
 
-    for (const session of sessions) {
-      if (session.id !== Number(id)) {
-        updatedSessions.push(session);
-        continue;
-      }
+    );
 
-      /* -------------------- */
-      /* SHOULD TRIM ? */
-      /* -------------------- */
+    if (sessionIndex === -1) {
 
-      /* -------------------- */
-/* SHOULD TRIM ? */
-/* -------------------- */
+      return res.status(404).json({
 
-const fileName =
-  session.videoUrl
-    .split("/")
-    .pop();
+        success: false,
 
-const inputPath = path.join(
-  __dirname,
-  "../uploads/videos",
-  fileName
-);
+        message: "Session not found",
 
-/* luam durata reala a videoului */
+      });
 
-const metadata =
-  await new Promise(
-    (resolve, reject) => {
-      ffmpeg.ffprobe(
-        inputPath,
-        (err, data) => {
-          if (err) reject(err);
-          else resolve(data);
-        }
-      );
     }
-  );
 
-const fullDuration =
-  Number(
-    metadata?.format?.duration || 0
-  );
+    let session = sessions[sessionIndex];
 
-/* toleranta mica pt floating point */
+    /* -------------------- */
 
-const EPSILON = 0.3;
+    /* FAST TRIM (OPTIONAL) */
 
-const isFullVideo =
-  Math.abs(
-    Number(trimStart || 0)
-  ) < EPSILON &&
-  Math.abs(
-    Number(trimEnd || 0) -
-    fullDuration
-  ) < EPSILON;
+    /* -------------------- */
 
-const shouldTrim =
-  trimStart != null &&
-  trimEnd != null &&
-  Number(trimEnd) >
-    Number(trimStart) &&
-  !isFullVideo;
+    const shouldTrim =
 
-console.log(
-  "duration:",
-  fullDuration
-);
+      trimStart != null &&
 
-console.log(
-  "isFullVideo:",
-  isFullVideo
-);
+      trimEnd != null &&
 
-console.log(
-  "shouldTrim:",
-  shouldTrim
-);
+      Number(trimEnd) > Number(trimStart) &&
 
-      /* -------------------- */
-      /* VIDEO TRIM */
-      /* -------------------- */
+      !(Number(trimStart) === 0 && trimEnd == null);
 
-      if (shouldTrim) {
-        const fileName =
-          session.videoUrl
-            .split("/")
-            .pop();
+    if (shouldTrim) {
 
-        const inputPath = path.join(
-          __dirname,
-          "../uploads/videos",
-          fileName
-        );
+      const fileName = session.videoUrl.split("/").pop();
 
-        const tempPath = path.join(
-          __dirname,
-          "../uploads/videos",
-          `temp-${Date.now()}.mp4`
-        );
+      const inputPath = path.join(
 
-        console.time("ffmpeg");
+        __dirname,
 
-        await new Promise(
-          (resolve, reject) => {
-            ffmpeg(inputPath)
-              .setStartTime(
-                Number(trimStart)
-              )
-              .setDuration(
-                Number(trimEnd) -
-                Number(trimStart)
-              )
-              .output(tempPath)
-              .on("end", resolve)
-              .on("error", reject)
-              .run();
-          }
-        );
+        "../uploads/videos",
 
-        console.timeEnd("ffmpeg");
+        fileName
 
-        fs.unlinkSync(inputPath);
-        fs.renameSync(tempPath, inputPath);
-      }
-
-      /* -------------------- */
-      /* UPDATE SESSION */
-      /* -------------------- */
-
-      editedSession = {
-        ...session,
-
-        description:
-          description ??
-          session.description,
-
-        isBestTake:
-          isBestTake ??
-          session.isBestTake,
-
-        trimStart:
-          trimStart ??
-          session.trimStart,
-
-        trimEnd:
-          trimEnd ??
-          session.trimEnd,
-      };
-
-      updatedSessions.push(
-        editedSession
       );
+
+      const tempPath = path.join(
+
+        __dirname,
+
+        "../uploads/videos",
+
+        `temp-${Date.now()}.mp4`
+
+      );
+
+      console.time("ffmpeg");
+
+      await new Promise((resolve, reject) => {
+
+        ffmpeg()
+
+          .input(inputPath)
+
+          .inputOptions([
+
+            `-ss ${Number(trimStart)}`
+
+          ])
+
+          .outputOptions([
+
+            `-t ${Number(trimEnd) - Number(trimStart)}`,
+
+            "-map 0",
+
+            "-c copy"
+
+          ])
+
+          .save(tempPath)
+
+          .on("end", resolve)
+
+          .on("error", reject);
+
+      });
+
+      console.timeEnd("ffmpeg");
+
+      fs.unlinkSync(inputPath);
+
+      fs.renameSync(tempPath, inputPath);
+
+      /* după ce ai tăiat fizic, resetăm trim */
+
+      session.trimStart = 0;
+
+      session.trimEnd = null;
+
     }
+
+    /* -------------------- */
+
+    /* UPDATE SESSION */
+
+    /* -------------------- */
+
+    const editedSession = {
+
+      ...session,
+
+      description:
+
+        description ?? session.description,
+
+      isBestTake:
+
+        isBestTake ?? session.isBestTake,
+
+      trimStart:
+
+        shouldTrim
+
+          ? 0
+
+          : (trimStart ?? session.trimStart),
+
+      trimEnd:
+
+        shouldTrim
+
+          ? null
+
+          : (trimEnd ?? session.trimEnd),
+
+    };
+
+    sessions[sessionIndex] = editedSession;
 
     fs.writeFileSync(
+
       sessionsPath,
-      JSON.stringify(
-        updatedSessions,
-        null,
-        2
-      )
+
+      JSON.stringify(sessions, null, 2)
+
     );
 
     /* -------------------- */
-    /* SONG MASTERED */
+
+    /* UPDATE SONGS */
+
     /* -------------------- */
 
-    if (editedSession) {
-      const songsPath = path.join(
-        __dirname,
-        "../data/songs.json"
-      );
+    const songs = JSON.parse(
 
-      const songs = JSON.parse(
-        fs.readFileSync(
-          songsPath,
-          "utf8"
-        )
-      );
+      fs.readFileSync(songsPath, "utf8")
 
-      const updatedSongs =
-        songs.map((song) => {
-          if (
-            song.title.toLowerCase() ===
-            editedSession.song.toLowerCase()
-          ) {
-            return {
-              ...song,
-              isMastered:
-                editedSession.isBestTake,
-            };
-          }
+    );
 
-          return song;
-        });
+    const updatedSongs = songs.map((song) => {
 
-      fs.writeFileSync(
-        songsPath,
-        JSON.stringify(
-          updatedSongs,
-          null,
-          2
-        )
-      );
-    }
+      if (
+
+        song.title.toLowerCase() ===
+
+        editedSession.song.toLowerCase()
+
+      ) {
+
+        return {
+
+          ...song,
+
+          isMastered:
+
+            editedSession.isBestTake,
+
+        };
+
+      }
+
+      return song;
+
+    });
+
+    fs.writeFileSync(
+
+      songsPath,
+
+      JSON.stringify(updatedSongs, null, 2)
+
+    );
 
     console.timeEnd("editVideo");
 
-    res.json({
+    return res.json({
+
       success: true,
+
       session: editedSession,
+
     });
 
   } catch (err) {
-    console.log(err);
 
-    res.status(500).json({
+    console.error(err);
+
+    return res.status(500).json({
+
       success: false,
+
+      message: err.message,
+
     });
+
   }
+
 };
 
 /* -------------------- */

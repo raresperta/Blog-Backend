@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": 1782674425266,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-27",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://192.168.1.176:5001/thumbnails/1782674425057.png",
+    "videoUrl": "http://192.168.1.176:5001/videos/1782674424869-Movie on 24-06-2026 at 21.03.mov"
+  },
+  {
+    "id": 1782994906529,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-03-29",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782994906381.png",
+    "videoUrl": "http://localhost:5001/videos/1782994906322-hotel california.mp4"
+  },
+  {
+    "id": 1782995165574,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-12",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782995165391.png",
+    "videoUrl": "http://localhost:5001/videos/1782995164898-Movie on 12-06-2026 at 18.48.mov",
+    "trimStart": 0,
+    "trimEnd": null
+  },
+  {
+    "id": 1782997603719,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-06",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782997603391.png",
+    "videoUrl": "http://localhost:5001/videos/1782997603207-Movie on 06-06-2026 at 16.10.mov"
+  },
+  {
+    "id": 1782997651193,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-06",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1782997650947.png",
+    "videoUrl": "http://localhost:5001/videos/1782997650773-Movie on 06-06-2026 at 16.10.mov"
+  },
+  {
+    "id": 1783147834252,
+    "title": "",
+    "description": "",
+    "song": "luna",
+    "date": "2026-07-02",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1783147834073.png",
+    "videoUrl": "http://localhost:5001/videos/1783147834004-Movie on 03-07-2026 at 00.51.mp4"
+  },
+  {
+    "id": 1783147850370,
+    "title": "",
+    "description": "",
+    "song": "be quiet and drive",
+    "date": "2026-07-03",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1783147850207.png",
+    "videoUrl": "http://localhost:5001/videos/1783147850119-Movie on 03-07-2026 at 17.35.mp4"
+  },
+  {
+    "id": 1783148440185,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-07-03",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1783148440035.png",
+    "videoUrl": "http://localhost:5001/videos/1783148439973-Movie on 03-07-2026 at 17.24.mp4"
+  },
+  {
+    "id": 1783148470504,
+    "title": "",
+    "description": "",
+    "song": "r u mine",
+    "date": "2026-06-15",
+    "hasDetectedDate": true,
+    "isBestTake": false,
+    "orientation": "landscape",
+    "thumbnail": "http://localhost:5001/thumbnails/1783148470251.png",
+    "videoUrl": "http://localhost:5001/videos/1783148469856-Movie on 15-06-2026 at 18.19.mov"
+  }
+]
