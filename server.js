@@ -16,11 +16,14 @@ const creationsRoutes =
 const learningRoutes =
   require("./routes/learningRoutes");
 
+const artworksRoutes =
+  require("./routes/artworksRoutes");
+
 const app = express();
 
 app.use(cors());
 
-app.use(express.json());
+app.use(express.json({ limit: "15mb" }));
 
 app.use(
 
@@ -81,6 +84,13 @@ app.use(
 );
 
 app.use(
+  "/artworks",
+  express.static(
+    path.join(__dirname, "uploads/artworks")
+  )
+);
+
+app.use(
   "/songs",
   songsRoutes
 );
@@ -93,6 +103,28 @@ app.use(
 app.use("/creations", creationsRoutes);
 
 app.use("/learning", learningRoutes);
+
+app.use("/art", artworksRoutes);
+
+app.use((error, req, res, next) => {
+  console.error("Upload error", {
+    method: req.method,
+    path: req.originalUrl,
+    contentType: req.headers["content-type"],
+    contentLength: req.headers["content-length"],
+    aborted: req.aborted,
+    message: error.message,
+  });
+
+  if (res.headersSent) {
+    return next(error);
+  }
+
+  res.status(400).json({
+    success: false,
+    message: "Uploadul imaginii nu a putut fi procesat. Încearcă din nou.",
+  });
+});
 
 app.listen(
   5001,

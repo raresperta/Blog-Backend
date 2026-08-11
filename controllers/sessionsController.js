@@ -7,6 +7,26 @@ const path = require("path");
 const ffmpeg =
   require("fluent-ffmpeg");
 
+const PUBLIC_API_URL = "https://api.artjourney.ro";
+
+function normalizeMediaUrl(mediaUrl) {
+  if (!mediaUrl) return mediaUrl;
+
+  try {
+    const url = new URL(mediaUrl);
+
+    if (["/videos/", "/thumbnails/"].some((prefix) => url.pathname.startsWith(prefix))) {
+      return `${PUBLIC_API_URL}${url.pathname}`;
+    }
+  } catch {
+    if (mediaUrl.startsWith("/")) {
+      return `${PUBLIC_API_URL}${mediaUrl}`;
+    }
+  }
+
+  return mediaUrl;
+}
+
 /* -------------------- */
 
 
@@ -49,7 +69,11 @@ exports.getSessions = (req, res) => {
 
       );
 
-    res.json(data);
+    res.json(data.map((session) => ({
+      ...session,
+      thumbnail: normalizeMediaUrl(session.thumbnail),
+      videoUrl: normalizeMediaUrl(session.videoUrl),
+    })));
 
   } catch (err) {
 
@@ -113,6 +137,8 @@ exports.uploadVideo = async (req, res) => {
         new Date()
           .toISOString()
           .split("T")[0];
+
+      let recordedAt = null;
 
       let hasDetectedDate =
         false;
@@ -254,13 +280,11 @@ exports.uploadVideo = async (req, res) => {
 
         try {
 
+          recordedAt = new Date(possibleDate).toISOString();
+
           detectedDate =
 
-            new Date(
-              possibleDate
-            )
-
-              .toISOString()
+            recordedAt
 
               .split("T")[0];
 
@@ -437,17 +461,19 @@ exports.uploadVideo = async (req, res) => {
 
         hasDetectedDate,
 
+        recordedAt,
+
         isBestTake: isBestTake === "true",
 
         orientation,
 
         thumbnail:
 
-          `http://api.artjourney.ro/thumbnails/${thumbnailName}`,
+          `https://api.artjourney.ro/thumbnails/${thumbnailName}`,
 
         videoUrl:
 
-          `http://api.artjourney.ro/videos/${req.file.filename}`,
+          `https://api.artjourney.ro/videos/${req.file.filename}`,
 
       };
 
@@ -670,6 +696,8 @@ exports.checkVideoDate = async (req, res) => {
       let detectedDate =
         null;
 
+      let recordedAt = null;
+
       if (possibleDate) {
 
         hasDetectedDate =
@@ -677,13 +705,11 @@ exports.checkVideoDate = async (req, res) => {
 
         try {
 
+          recordedAt = new Date(possibleDate).toISOString();
+
           detectedDate =
 
-            new Date(
-              possibleDate
-            )
-
-              .toISOString()
+            recordedAt
 
               .split("T")[0];
 
@@ -708,6 +734,8 @@ exports.checkVideoDate = async (req, res) => {
         hasDetectedDate,
 
         detectedDate,
+
+        recordedAt,
 
       });
 
